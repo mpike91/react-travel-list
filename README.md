@@ -1,7 +1,9 @@
 # Travel List
 
-Simple app practicing with state, controlled forms, event handlers, rendering lists, and more.
+Travel packing list App. User can add items of custom quantity, delete individual items, check "packed", sort items, and clear entire list.
+
+Utilized functional components, passing props, using state, deriving state, event handlers, controlled forms, and more.
 
 <p align="center">
-  <img width="75%" src="readme.png" alt="App">
+  <img width="85%" src="readme.png" alt="App">
 </p>
