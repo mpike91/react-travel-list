@@ -13,11 +13,13 @@ export default function PackingList({
 
   if (sortBy === "input") sortedItems = items;
 
+  // Sort alphabetically by item description
   if (sortBy === "description")
     sortedItems = items
       .slice()
       .sort((a, b) => a.description.localeCompare(b.description));
 
+  // Sort numerically by number of items packed
   if (sortBy === "packed")
     sortedItems = items
       .slice()
